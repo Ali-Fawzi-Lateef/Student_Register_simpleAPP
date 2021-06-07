@@ -7,7 +7,7 @@ public:
 	float rateing;
 	void Mystudent() {
 		std::cout << "Enter student name\n";
-		std::cin >> studentName;
+		std::cin >> studentName;//get input from the user
 		std::cout << "Enter student ID\n";
 		std::cin >> studentID;
 		std::cout << "Enter student rateing\n";
