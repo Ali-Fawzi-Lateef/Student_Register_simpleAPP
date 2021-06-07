@@ -1,2 +1,2 @@
-Test file
-will be filed later if God well
+School registration test
+projct isnt finished
