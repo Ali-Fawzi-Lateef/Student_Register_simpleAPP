@@ -33,7 +33,7 @@ int main() {
 	std::cout << "\t SCHOOL\n";
 	do {
 		options();
-		std::cin >> opt;
+		std::cin >> opt;//get input from the user for option
 		switch (opt) {
 		case 1:
 			STUDENT.Mystudent();
