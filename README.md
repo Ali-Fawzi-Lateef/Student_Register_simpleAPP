@@ -1,2 +1,2 @@
 School registration test
-projct isnt finished
+projct isnt finished .
