@@ -15,10 +15,10 @@ public:
 	}
 };
 
-class school:student {
+class school : public student {
 public:
 	void Myschool() {
-		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%"<<std::endl;
+		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%" << std::endl;
 	}
 };
 void options() {
@@ -36,7 +36,7 @@ int main() {
 		std::cin >> opt;//get input from the user for option
 		switch (opt) {
 		case 1:
-			STUDENT.Mystudent();
+			SCHOOL.Mystudent();
 			break;
 		case 2:
 			SCHOOL.Myschool();
