@@ -16,7 +16,7 @@ public:
 	}
 };
 
-class school : public student {
+class school : public student {//this class inherit from the parent class (student class)
 public:
 	void Myschool() {
 		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%\a" << std::endl;
@@ -51,5 +51,5 @@ int main() {
 		}
 
 
-	} while (opt != 3);
+	} while (opt != 3);//ifuser input 3 the loop breaks
 }
