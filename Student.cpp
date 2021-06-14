@@ -12,13 +12,14 @@ public:
 		std::cin >> studentID;//get input from the user
 		std::cout << "Enter student rateing\n";
 		std::cin >> rateing;//get input from the user
+		std::cout << "\a";
 	}
 };
 
 class school : public student {
 public:
 	void Myschool() {
-		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%" << std::endl;
+		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%\a" << std::endl;
 	}
 };
 void options() {
@@ -27,6 +28,7 @@ void options() {
 	std::cout << "> Press 3 To EXIT\n";
 }
 int main() {
+	system("color 3");
 	student STUDENT;
 	school SCHOOL;
 	int opt{};
