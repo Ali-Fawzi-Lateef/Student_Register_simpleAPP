@@ -25,7 +25,7 @@ public:
 void options() {
 	std::cout << "> Press 1 to sign student\n";
 	std::cout << "> Press 2 to show students\n";
-	std::cout << "> Press 3 To EXIT\n";
+	std::cout << "> Press 3 To EXIT \n";
 }
 int main() {
 	system("color 3");
@@ -51,5 +51,5 @@ int main() {
 		}
 
 
-	} while (opt != 3);//ifuser input 3 the loop breaks
+	} while (opt != 3);     //ifuser input 3 the loop breaks
 }
