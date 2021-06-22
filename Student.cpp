@@ -47,7 +47,7 @@ int main() {
 			std::cout << "Goodbye!";
 			break;
 		default:
-			std::cout << "invalid option, try again!\n";
+			std::cout << "invalid option, try again!\n";//shows this to the console as a default value
 		}
 
 
