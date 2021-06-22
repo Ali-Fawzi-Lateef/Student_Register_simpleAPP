@@ -51,5 +51,5 @@ int main() {
 		}
 
 
-	} while (opt != 3);//ifuser input 3 the loop breaks
+	} while (opt != 3);//if user input 3 the loop breaks
 }
