@@ -30,12 +30,12 @@ void options() {
 int main() {
 	system("color 3");
 	student STUDENT;//define the class.
-	school SCHOOL;//define the class
+	school SCHOOL;//define the class.
 	int opt{};
 	std::cout << "\t SCHOOL\n";
 	do {
 		options();
-		std::cin >> opt;//get input from the user for option
+		std::cin >> opt;//get input from the user for option.
 		switch (opt) {
 		case 1:
 			SCHOOL.Mystudent();
