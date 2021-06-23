@@ -16,7 +16,7 @@ public:
 	}
 };
 
-class school : public student {//this class inherit from the parent class (student class)
+class school : public student {//this class inherit from the parent class (student class).
 public:
 	void Myschool() {
 		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%\a" << std::endl;
@@ -29,7 +29,7 @@ void options() {
 }
 int main() {
 	system("color 3");
-	student STUDENT;//define the class
+	student STUDENT;//define the class.
 	school SCHOOL;//define the class
 	int opt{};
 	std::cout << "\t SCHOOL\n";
