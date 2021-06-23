@@ -47,9 +47,9 @@ int main() {
 			std::cout << "Goodbye!";
 			break;
 		default:
-			std::cout << "invalid option, try again!\n";//shows this to the console as a default value
+			std::cout << "invalid option, try again!\n";//shows this to the console as a default value.
 		}
 
 
-	} while (opt != 3);//if user input 3 the loop breaks
+	} while (opt != 3);//if user input 3 the loop breaks.
 }
