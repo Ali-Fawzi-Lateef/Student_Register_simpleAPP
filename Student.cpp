@@ -29,8 +29,8 @@ void options() {
 }
 int main() {
 	system("color 3");
-	student STUDENT;//define the class
-	school SCHOOL;//define the class
+	student STUDENT;//define the class.
+	school SCHOOL;//define the class.
 	int opt{};
 	std::cout << "\t SCHOOL\n";
 	do {
