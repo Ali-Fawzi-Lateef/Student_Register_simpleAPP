@@ -23,7 +23,7 @@ public:
 	}
 };
 void options() {
-	std::cout << "> Press 1 to sign student\n";
+	std::cout << "> Press 1 to sign student\n";//print the text to the console.
 	std::cout << "> Press 2 to show students\n";
 	std::cout << "> Press 3 To EXIT \n";
 }
