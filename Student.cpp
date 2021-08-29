@@ -16,7 +16,7 @@ public:
 	}
 };
 
-class school : public student {//this class inherit from the parent class (student class)
+class school : public student {//this class inherit from the parent class (student class).
 public:
 	void Myschool() {
 		std::cout << studentName << std::endl << studentID << std::endl << rateing << "%\a" << std::endl;
